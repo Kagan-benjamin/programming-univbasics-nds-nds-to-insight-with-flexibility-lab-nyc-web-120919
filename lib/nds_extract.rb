@@ -82,6 +82,7 @@ def gross_per_studio(collection)
    movie = collection[i]
    
    if result[movie[:studio]]
+     result[movie[:studio]] = 
   
    
   i += 1
