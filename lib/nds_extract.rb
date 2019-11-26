@@ -109,7 +109,7 @@ def movies_with_directors_set(source)
   while i < source.length do 
     directors_movies = source[i][:movies] 
     director_name = source[i][:name]
-    
+    result << movies_with_director_key(director_name, directors_movies)
     
     i += 1
   end
